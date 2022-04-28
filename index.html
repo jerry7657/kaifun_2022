@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>開飯川食堂 KAIFUN TOGETHER | 經典美食</title>
+</head>
+
+<body>
+    <header class="header-warp">
+
+        <!-- 頂部連結欄 -->
+        <div class="contact-header">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-header__container">
+                        <ul class="contact-header__list">
+                            <li><a href="/"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="/">IEAT</a></li>
+                            <li><a href="/">聯絡我們</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 導覽列 -->
+        <div class="container">
+            <nav class="navbar">
+                <a href="/" class="navbar__brand">
+                    <img src="https://www.kaifun.com.tw/images/kaifun_logo.svg" alt="logo" class="logo">
+                </a>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <label for="check" class="cancelbtn">
+                    <i class="fas fa-times"></i>
+                </label>
+                <div class="navbar__container">
+                    <ul class="navbar__list">
+                        <li class="dropdown navbar__item--main">
+                            <a href="/" class="navbar__link"><span>關於品牌</span></a>
+                        </li>
+                        <li class="dropdown navbar__item--main">
+                            <input type="checkbox" id="check1">
+                            <label for="check1" class="navbar__link dropdown__toggle">美味餐點<i
+                                    class="fas fa-angle-down"></i></label>
+                            <div class="dropdown__menu">
+                                <ul>
+                                    <li><a href="/" class="dropdown-item navbar__link navbar__item--sub">經典美食</a></li>
+                                    <li><a href="/" class="dropdown-item navbar__link navbar__item--sub">套餐組合</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown navbar__item--main">
+                            <input type="checkbox" id="check2">
+                            <label for="check2" class="navbar__link dropdown__toggle">餐廳據點<i
+                                    class="fas fa-angle-down"></i></label>
+                            <div class="dropdown__menu">
+                                <ul>
+                                    <li><a href="/" class="dropdown-item navbar__link navbar__item--sub">台北地區</a></li>
+                                    <li><a href="/" class="dropdown-item navbar__link navbar__item--sub">新北地區</a></li>
+                                    <li><a href="/" class="dropdown-item navbar__link navbar__item--sub">桃園地區</a></li>
+                                    <li><a href="/" class="dropdown-item navbar__link navbar__item--sub">新竹地區</a></li>
+                                    <li><a href="/" class="dropdown-item navbar__link navbar__item--sub">台中地區</a></li>
+                                    <li><a href="/" class="dropdown-item navbar__link navbar__item--sub">台南地區</a></li>
+                                    <li><a href="/" class="dropdown-item navbar__link navbar__item--sub">高雄地區</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown navbar__item--main">
+                            <a href="/" class="navbar__link"><span>最新消息</span></a>
+                        </li>
+                        <li class="dropdown navbar__item--main">
+                            <input type="checkbox" id="check3">
+                            <label for="check3" class="navbar__link dropdown__toggle">外帶外送/餐券<i
+                                    class="fas fa-angle-down"></i></label>
+                            <div class="dropdown__menu">
+                                <ul>
+                                    <li><a href="/" class="dropdown-item navbar__link navbar__item--sub">外帶外送</a></li>
+                                    <li><a href="/" class="dropdown-item navbar__link navbar__item--sub">線上餐券</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown navbar__item--main">
+                            <input type="checkbox" id="check4">
+                            <label for="check4" class="navbar__link dropdown__toggle">饗賓集團<i
+                                    class="fas fa-angle-down"></i></label>
+                            <div class="dropdown__menu">
+                                <ul>
+                                    <li><a href="/" class="dropdown-item navbar__link navbar__item--sub">饗食天堂</a></li>
+                                    <li><a href="/" class="dropdown-item navbar__link navbar__item--sub">饗饗</a></li>
+                                    <li><a href="/" class="dropdown-item navbar__link navbar__item--sub">旭集</a></li>
+                                    <li><a href="/" class="dropdown-item navbar__link navbar__item--sub">果然匯</a></li>
+                                    <li><a href="/" class="dropdown-item navbar__link navbar__item--sub">饗泰多</a></li>
+                                    <li><a href="/" class="dropdown-item navbar__link navbar__item--sub">真珠</a></li>
+                                    <li><a href="/" class="dropdown-item navbar__link navbar__item--sub">饗在家</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- 橫幅圖 -->
+
+    <section class="banner__container">
+        <div class="banner__img"></div>
+        <div class="container banner__title-bg">
+            <div class="banner__title">
+                <h1>經典美食</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- 種類 -->
+
+    <section class="menu">
+        <div class="container">
+            <div class="row">
+                <div class="menu__container">
+                    <div class="menu__outer">
+                        <div class="menu__list">
+                            <div class="menu__item">
+                                <h2>全品項</h2>
+                            </div>
+                            <div class="menu__item">
+                                <h2>開場前菜</h2>
+                            </div>
+                            <div class="menu__item">
+                                <h2>火熱干鍋</h2>
+                            </div>
+                            <div class="menu__item">
+                                <h2>路上跑的</h2>
+                            </div>
+                            <div class="menu__item">
+                                <h2>水裡游的</h2>
+                            </div>
+                            <div class="menu__item">
+                                <h2>蛋/豆腐</h2>
+                            </div>
+                            <div class="menu__item">
+                                <h2>土裡長的</h2>
+                            </div>
+                            <div class="menu__item">
+                                <h2>吃點飯</h2>
+                            </div>
+                            <div class="menu__item">
+                                <h2>湯湯水水</h2>
+                            </div>
+                            <div class="menu__item">
+                                <h2>來份甜點</h2>
+                            </div>
+                            <div class="menu__item">
+                                <h2>喝一杯吧</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu__arrow">
+                        <i class="fas fa-caret-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 菜單 -->
+
+    <section class="food">
+        <div class="container">
+            <div class="grid">
+                <div class="food__card">
+                    <div class="food__img">
+                        <img src="https://www.kaifun.com.tw/storage/website/menusingle/kaifun20220126155913_IMG.png"
+                            alt="流口水雞">
+
+                        <span class="food__img--suggest">主廚推薦</span>
+
+                    </div>
+                    <div class="food__rate">
+                        <div class="food__rate--price">
+                            <span>$360</span>
+                        </div>
+                        <div class="food__rate--spicy">
+                            <i class="fas fa-pepper-hot" style="margin-left: -0.4rem;"></i>
+
+                        </div>
+                    </div>
+                    <div class="food__detail">
+                        <div class="food__detail--title">
+                            <h3>流口水雞</h3>
+                        </div>
+                        <div class="food__detail--description">
+                            <p>特選仿土雞淋上獨門芝麻醬汁與辣油，帶出川味豐富層次。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food__card">
+                    <div class="food__img">
+                        <img src="https://www.kaifun.com.tw/storage/website/menusingle/kaifun20220126155817_IMG.png"
+                            alt="翻滾吧！肥腸">
+                        <div class="food__img--suggest">
+                            <p>主廚推薦</p>
+                        </div>
+                    </div>
+                    <div class="food__rate">
+                        <div class="food__rate--price">
+                            <p>$400</p>
+                        </div>
+                        <div class="food__rate--spicy">
+                            <i class="fas fa-pepper-hot" style="margin-left: -0.4rem;"></i>
+                            <i class="fas fa-pepper-hot" style="margin-left: -0.4rem;"></i>
+                            <i class="fas fa-pepper-hot" style="margin-left: -0.4rem;"></i>
+                        </div>
+                    </div>
+                    <div class="food__detail">
+                        <div class="food__detail--title">
+                            <h3>翻滾吧！肥腸</h3>
+                        </div>
+                        <div class="food__detail--description">
+                            <p>深滷入味肥腸，與開飯特製香料、特級杏鮑菇熱辣翻滾。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food__card">
+                    <div class="food__img">
+                        <img src="https://www.kaifun.com.tw/storage/website/menusingle/kaifun20220126155836_IMG.png"
+                            alt="乾煸四季豆">
+                        <div class="food__img--suggest">
+                            <p>主廚推薦</p>
+                        </div>
+                    </div>
+                    <div class="food__rate">
+                        <div class="food__rate--price">
+                            <p>$240</p>
+                        </div>
+                        <div class="food__rate--spicy">
+                        </div>
+                    </div>
+                    <div class="food__detail">
+                        <div class="food__detail--title">
+                            <h3>乾煸四季豆</h3>
+                        </div>
+                        <div class="food__detail--description">
+                            <p>焦香四季豆拌炒蔥薑肉末，鹹香有味。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food__card">
+                    <div class="food__img">
+                        <img src="https://www.kaifun.com.tw/storage/website/menusingle/kaifun20220126155855_IMG.png"
+                            alt="花椒炸蛋">
+                        <div class="food__img--suggest">
+                            <p>主廚推薦</p>
+                        </div>
+                    </div>
+                    <div class="food__rate">
+                        <div class="food__rate--price">
+                            <p>$240</p>
+                        </div>
+                        <div class="food__rate--spicy">
+                            <i class="fas fa-pepper-hot" style="margin-left: -0.4rem;"></i>
+                            <i class="fas fa-pepper-hot" style="margin-left: -0.4rem;"></i>
+                        </div>
+                    </div>
+                    <div class="food__detail">
+                        <div class="food__detail--title">
+                            <h3>花椒炸蛋</h3>
+                        </div>
+                        <div class="food__detail--description">
+                            <p>半熟煎蛋淋上花椒燒肉末，香麻下飯，老少咸宜。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food__card">
+                    <div class="food__img">
+                        <img src="https://www.kaifun.com.tw/storage/website/menusingle/kaifun20220126155913_IMG.png"
+                            alt="梅汁二弄雞">
+
+                        <span class="food__img--suggest">主廚推薦</span>
+
+                    </div>
+                    <div class="food__rate">
+                        <div class="food__rate--price">
+                            <span>$280</span>
+                        </div>
+                        <div class="food__rate--spicy">
+
+
+                        </div>
+                    </div>
+                    <div class="food__detail">
+                        <div class="food__detail--title">
+                            <h3>梅汁二弄雞</h3>
+                        </div>
+                        <div class="food__detail--description">
+                            <p>酥炸雞丁遇上梅子，梅汁清酸襯肉甜。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food__card">
+                    <div class="food__img">
+                        <img src="https://www.kaifun.com.tw/storage/website/menusingle/kaifun20220126155927_IMG.png"
+                            alt="蔥爆牛肉">
+                        <div class="food__img--suggest">
+                            <p>主廚推薦</p>
+                        </div>
+                    </div>
+                    <div class="food__rate">
+                        <div class="food__rate--price">
+                            <p>$320</p>
+                        </div>
+                        <div class="food__rate--spicy">
+
+                        </div>
+                    </div>
+                    <div class="food__detail">
+                        <div class="food__detail--title">
+                            <h3>蔥爆牛肉</h3>
+                        </div>
+                        <div class="food__detail--description">
+                            <p>特選牛肉絲及清甜鮮蔥，與特調甜麵醬跳出香濃舞曲。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food__card">
+                    <div class="food__img">
+                        <img src="https://www.kaifun.com.tw/storage/website/menusingle/kaifun20220126155942_IMG.png"
+                            alt="梅干鹹燒白">
+                        <div class="food__img--suggest">
+                            <p>主廚推薦</p>
+                        </div>
+                    </div>
+                    <div class="food__rate">
+                        <div class="food__rate--price">
+                            <p>$400</p>
+                        </div>
+                        <div class="food__rate--spicy">
+                        </div>
+                    </div>
+                    <div class="food__detail">
+                        <div class="food__detail--title">
+                            <h3>梅干鹹燒白</h3>
+                        </div>
+                        <div class="food__detail--description">
+                            <p>四川鄉土民間菜，與梅干菜蒸至微微發顫的豬五花，入口即化，連心都化了。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food__card">
+                    <div class="food__img">
+                        <img src="https://www.kaifun.com.tw/storage/website/menusingle/kaifun20220126160000_IMG.png"
+                            alt="連鍋湯">
+                        <div class="food__img--suggest">
+                            <p>主廚推薦</p>
+                        </div>
+                    </div>
+                    <div class="food__rate">
+                        <div class="food__rate--price">
+                            <p>$340</p>
+                        </div>
+                        <div class="food__rate--spicy">
+
+                        </div>
+                    </div>
+                    <div class="food__detail">
+                        <div class="food__detail--title">
+                            <h3>連鍋湯</h3>
+                        </div>
+                        <div class="food__detail--description">
+                            <p>豬大骨慢熬八小時，加入五花肉片、白蘿蔔一同熬煮，清甜帶鮮微麻香。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food__card">
+                    <div class="food__img">
+                        <img src="https://www.kaifun.com.tw/storage/website/menusingle/kaifun20220126160018_IMG.png"
+                            alt="豆酥扁鱈">
+
+                        <span class="food__img--suggest">主廚推薦</span>
+
+                    </div>
+                    <div class="food__rate">
+                        <div class="food__rate--price">
+                            <span>$450</span>
+                        </div>
+                        <div class="food__rate--spicy">
+
+
+                        </div>
+                    </div>
+                    <div class="food__detail">
+                        <div class="food__detail--title">
+                            <h3>豆酥扁鱈</h3>
+                        </div>
+                        <div class="food__detail--description">
+                            <p>現炒豆酥鹹香酥，搭配鮮嫩扁鱈，絕妙美味。備註：大比目魚俗稱扁鱈。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food__card">
+                    <div class="food__img">
+                        <img src="https://www.kaifun.com.tw/storage/website/menusingle/kaifun20220126160040_IMG.png"
+                            alt="鍋巴蝦仁滋滋響">
+                        <div class="food__img--suggest">
+                            <p>主廚推薦</p>
+                        </div>
+                    </div>
+                    <div class="food__rate">
+                        <div class="food__rate--price">
+                            <p>$400</p>
+                        </div>
+                        <div class="food__rate--spicy">
+
+                        </div>
+                    </div>
+                    <div class="food__detail">
+                        <div class="food__detail--title">
+                            <h3>鍋巴蝦仁滋滋響</h3>
+                        </div>
+                        <div class="food__detail--description">
+                            <p>當焦香酥脆的鍋巴，淋上以濃郁茄汁燴煮的滑嫩蝦仁，滋滋作響的酸甜美味。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food__card">
+                    <div class="food__img">
+                        <img src="https://www.kaifun.com.tw/storage/website/menusingle/kaifun20220126161453_IMG.png"
+                            alt="夫妻肺片">
+                        <!-- <div class="food__img--suggest">
+                            <p>主廚推薦</p>
+                        </div> -->
+                    </div>
+                    <div class="food__rate">
+                        <div class="food__rate--price">
+                            <p>$360</p>
+                        </div>
+                        <div class="food__rate--spicy">
+                            <i class="fas fa-pepper-hot" style="margin-left: -0.4rem;"></i>
+                        </div>
+                    </div>
+                    <div class="food__detail">
+                        <div class="food__detail--title">
+                            <h3>夫妻肺片</h3>
+                        </div>
+                        <div class="food__detail--description">
+                            <p>牛筋、牛腱、牛肚滷煮切片，佐以秘製麻辣紅油拌食，味中有味。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food__card">
+                    <div class="food__img">
+                        <img src="https://www.kaifun.com.tw/storage/website/menusingle/kaifun20220126161536_IMG.png"
+                            alt="藤椒拌拌雞">
+                        <!-- <div class="food__img--suggest">
+                            <p>主廚推薦</p>
+                        </div> -->
+                    </div>
+                    <div class="food__rate">
+                        <div class="food__rate--price">
+                            <p>$360</p>
+                        </div>
+                        <div class="food__rate--spicy">
+                            <i class="fas fa-pepper-hot" style="margin-left: -0.4rem;"></i>
+                        </div>
+                    </div>
+                    <div class="food__detail">
+                        <div class="food__detail--title">
+                            <h3>藤椒拌拌雞</h3>
+                        </div>
+                        <div class="food__detail--description">
+                            <p>開飯招牌鹽焗雞拌入蒜苗與藤椒油，清香微麻，爽口開胃好棒棒！</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <span>Copyright © Kaifun , 2021</span>
+        </div>
+    </section>
+
+</body>
+
+</html>

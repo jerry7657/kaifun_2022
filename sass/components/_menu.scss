@@ -1,0 +1,47 @@
+.menu {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+
+  &__container {
+    padding: 0 3rem;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  &__outer {
+    position: relative;
+    overflow: hidden;
+    width: 95%;
+  }
+
+  &__list {
+    display: block;
+    width: 1820px;
+    margin: 0 auto;
+  }
+
+  &__item {
+    width: 149.143px;
+    margin-right: 16px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    padding: 0.8rem 0;
+    border: solid 1px $kaifun-color;
+    color: $kaifun-color;
+    border-radius: 50px;
+
+    h2 {
+      font-size: 20px;
+    }
+  }
+
+  &__arrow {
+    padding: 2rem;
+    width: 5%;
+    font-size: 3.5rem;
+    color: $kaifun-color;
+  }
+}

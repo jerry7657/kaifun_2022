@@ -1,0 +1,96 @@
+.banner {
+  &__container {
+    position: relative;
+    width: 100%;
+    margin-top: 10rem;
+    z-index: 1;
+  }
+
+  &__img {
+    background-image: url(https://www.kaifun.com.tw/storage/website/kv/kaifun20220126153951_PC-KV.png);
+    height: 65rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  &__title-bg {
+    display: block;
+    position: absolute;
+    height: 5rem;
+    z-index: 10;
+    overflow: hidden;
+    bottom: 10px;
+    width: 55%;
+  }
+
+  &__title {
+    width: auto;
+    position: relative;
+    display: inline-block;
+    background: 0 0;
+    background-color: #fff;
+    min-width: 160px;
+    border-radius: 45px;
+    height: 100px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin: 10px 0 0 0;
+    }
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .banner {
+    &__img {
+      height: 20rem;
+    }
+
+    &__title-bg {
+      margin-left: -270px;
+      left: 50%;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .banner {
+    &__img {
+      height: 30rem;
+    }
+
+    &__title-bg {
+      margin-left: -360px;
+      left: 50%;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .banner {
+    &__img {
+      height: 40rem;
+    }
+
+    &__title-bg {
+      margin-left: -480px;
+      left: 50%;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .banner {
+    &__img {
+      height: 50rem;
+    }
+
+    &__title-bg {
+      margin-left: -570px;
+      left: 50%;
+    }
+  }
+}

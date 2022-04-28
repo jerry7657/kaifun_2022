@@ -1,0 +1,57 @@
+.food {
+  width: 100%;
+  margin: auto;
+  &__card {
+    padding-bottom: 8rem;
+  }
+
+  &__img {
+    position: relative;
+
+    img {
+      width: 100%;
+    }
+
+    &--suggest {
+      background: $kaifun-color;
+      position: absolute;
+      padding: 0.4rem;
+      color: white;
+      border-radius: 5px;
+      font-size: 1.5rem;
+      bottom: 0.5rem;
+      left: 10%;
+    }
+  }
+
+  &__rate {
+    display: flex;
+    justify-content: center;
+
+    &--price {
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: $kaifun-color;
+      margin: 0 1.3rem;
+    }
+
+    &--spicy {
+      color: $kaifun-color;
+    }
+  }
+
+  &__detail {
+    width: 50%;
+    margin: 1rem auto;
+
+    &--title {
+      text-align: center;
+      font-size: 1.6rem;
+      padding-bottom: 0.7rem;
+    }
+
+    &--description {
+      font-size: 1.4rem;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.header-warp {
+  background: white;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: block;
+}
+
+.contact-header {
+  position: relative;
+  background-color: $kaifun-color;
+  z-index: 9999;
+
+  &__container {
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    min-width: 100%;
+  }
+
+  &__list {
+    list-style: none;
+
+    li {
+      display: inline-block;
+      padding: 5px 5px 5px 0;
+
+      a {
+        color: white;
+        text-decoration: none;
+        padding: 0 15px;
+        transition: 0.5s;
+
+        &:hover {
+          color: black;
+        }
+      }
+    }
+  }
+}
